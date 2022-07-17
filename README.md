@@ -9,7 +9,7 @@ DSC_NNNN.JPG to DSC_YYYYMMDD_HHMMSS.JPG
 
 # Usage
 
-To use, either import rename_canon_files in your own code or activate the main.py file and follow the instructions:
+To use, either import rename_camera_files in your own code or activate the main.py file and follow the instructions:
 
 > python main.py
 
