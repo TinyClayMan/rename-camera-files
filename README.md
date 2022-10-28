@@ -11,15 +11,15 @@ DSC_NNNN.JPG to DSC_YYYYMMDD_HHMMSS.JPG
 
 ## Using built-in Python venv
 ```
-python3 -m venv env
+python3 -m venv .venv
 ```
 On Windows:
 ```
-env\Scripts\activate.bat
+.venv\Scripts\activate.bat
 ```
 On Linux:
 ```
-source env/bin/activate
+source .venv/bin/activate
 ```
 And then add the required packages:
 ```
@@ -29,7 +29,7 @@ git add requirements.txt
 ```
 poetry install
 ```
-Required libraries will be added to a local .venv.
+Required libraries will be added to a local .venv, created automatically. The steps for entering the virtul environment are the same as for the non-Poetry way.
 
 # Usage
 
