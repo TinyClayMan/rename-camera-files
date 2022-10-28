@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rename-camera-files"
+version = "0.1.0"
+description = "A simple tool to change standard camera file namings."
+authors = ["TinyClayMan <tinyclayman@gmail.com>"]
+license = "CC BY"
+readme = "README.md"
+packages = [{include = "rename_camera_files"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^9.2.0"
+
+[tool.poetry.scripts]
+rename_camera_files = "rename_camera_files.main:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

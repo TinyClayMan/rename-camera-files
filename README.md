@@ -7,6 +7,30 @@ Example:
 
 DSC_NNNN.JPG to DSC_YYYYMMDD_HHMMSS.JPG
 
+# Installation
+
+## Using built-in Python venv
+
+> python3 -m venv env
+
+On Windows:
+
+> env\Scripts\activate.bat
+
+On Linux:
+
+> source env/bin/activate
+
+And then add the required packages:
+
+> git add requirements.txt
+
+## Using Poetry
+
+> poetry install
+
+Required libraries will be added to a local .venv.
+
 # Usage
 
 To use, either import rename_camera_files in your own code or activate the main.py file and follow the instructions:
